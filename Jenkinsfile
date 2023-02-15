@@ -38,7 +38,7 @@ pipeline{
                             steps{
                                 sh '''
                                 cd networking
-                                terraform init --reconfigure
+                                terraform init
                                 terraform validate'''
                             }
                         }
