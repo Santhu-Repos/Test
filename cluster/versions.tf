@@ -14,7 +14,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "<bucket>"
+    bucket = "testbucket123412341212"
     key    = "<key_val>"
     region = "us-east-1"
   }
