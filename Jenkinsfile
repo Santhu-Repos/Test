@@ -21,8 +21,8 @@ pipeline{
                 environment name:'SKIP',value:'N'
             }
             steps{
-                sh'''
-                aws s3 mb s3://testbucket
+                   sh'''
+                aws s3 mb s3://testbucket'''
                 
             }
         }
