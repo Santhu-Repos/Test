@@ -8,7 +8,7 @@ pipeline{
         AWS_DEFAULT_REGION="us-east-1"
         SKIP="N"
         TERRADESTROY="N"
-        FIRST_DEPLOY="Y"
+        FIRST_DEPLOY="N"
         STATE_BUCKET="testok12341234"
         CLUSTER_NAME="testcluster"
     }
