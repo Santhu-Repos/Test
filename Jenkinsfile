@@ -38,8 +38,7 @@ pipeline{
                             steps{
                                 sh '''
                                 cd networking
-                                terraform init
-                                terraform validate'''
+                                  '''
                             }
                         }
                         stage('apply n/w modules'){
