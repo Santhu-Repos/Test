@@ -9,7 +9,7 @@ pipeline{
         SKIP="N"
         TERRADESTROY="N"
         FIRST_DEPLOY="Y"
-        STATE_BUCKET="testbucket123412341212"
+        STATE_BUCKET="testok12341234"
         CLUSTER_NAME="testcluster"
     }
 
@@ -22,7 +22,7 @@ pipeline{
             }
             steps{
                    sh'''
-                aws s3 mb s3://testbucket123412341212'''
+                aws s3 mb s3://testok12341234'''
                 
             }
         }
