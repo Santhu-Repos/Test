@@ -1,9 +1,8 @@
 variable "cluster_name"{
-    default = "<name>"
-}
+    default = "testcluster"
 
 variable "state_bucket"{
-    default = "<name>"
+    default = "testbucket123412341212"
 }
 
 variable "state_key"{
